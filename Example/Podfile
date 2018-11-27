@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JDG-Standard_Example' do
+  pod 'JDG-Standard', :path => '../'
+
+  target 'JDG-Standard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
