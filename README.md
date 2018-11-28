@@ -22,7 +22,7 @@ pod 'JDG-Standard'
 
 ## Author
 
-甘邻龙01516778, ganlinlong@haier.com
+Mr. 甘, jessiegan1987@163.com
 
 ## License
 
