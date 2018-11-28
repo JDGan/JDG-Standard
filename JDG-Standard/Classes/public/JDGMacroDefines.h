@@ -23,6 +23,10 @@
         block();                                            \
     }
 
+#define WeakObj(o) @try{}@finally{} __weak typeof(o) o##Weak = o;
+#define StrongObj(o) @try{}@finally{} __strong typeof(o) o##Strong = o;
+#define WeakSelf WeakObj(self)
+
 #pragma mark - 自定义blocks
 typedef void(^VoidBlock)(void);
 typedef void(^DataBlock)(id data);

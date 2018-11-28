@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40A76D86C6180BCF5A31B838 /* Pods_JDG_Standard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37161071330E7937B558C44 /* Pods_JDG_Standard_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		81009C8A31DB0A705BFCF2BA /* Pods_JDG_Standard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D0791B0AEC06F44DC84127 /* Pods_JDG_Standard_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A56145534BB3C399F6239297 /* libPods-JDG-Standard_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F9462D9F0CBD05D0D7697B /* libPods-JDG-Standard_Example.a */; };
+		E620671ADDE592D02BF232FE /* libPods-JDG-Standard_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 344A8F14607E63DB8EBD1E19 /* libPods-JDG-Standard_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		344A8F14607E63DB8EBD1E19 /* libPods-JDG-Standard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDG-Standard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAC6D31BD0318E337114405 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49F9462D9F0CBD05D0D7697B /* libPods-JDG-Standard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDG-Standard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3F3239A28C7A9963F96611 /* Pods-JDG-Standard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDG-Standard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDG-Standard_Tests/Pods-JDG-Standard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		56E4E2180727A21FBA55A998 /* JDG-Standard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "JDG-Standard.podspec"; path = "../JDG-Standard.podspec"; sourceTree = "<group>"; };
 		5A43EA3F2EC1D708F0FB93B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -61,12 +63,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66F52EF13F3FFEA4CB63DF08 /* Pods-JDG-Standard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDG-Standard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDG-Standard_Example/Pods-JDG-Standard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		69D0791B0AEC06F44DC84127 /* Pods_JDG_Standard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDG_Standard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722DBA21E600133F3A66CE7D /* Pods-JDG-Standard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDG-Standard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDG-Standard_Example/Pods-JDG-Standard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC6B16E2E514952D158575F /* Pods-JDG-Standard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDG-Standard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDG-Standard_Tests/Pods-JDG-Standard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C37161071330E7937B558C44 /* Pods_JDG_Standard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDG_Standard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				81009C8A31DB0A705BFCF2BA /* Pods_JDG_Standard_Example.framework in Frameworks */,
+				A56145534BB3C399F6239297 /* libPods-JDG-Standard_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				40A76D86C6180BCF5A31B838 /* Pods_JDG_Standard_Tests.framework in Frameworks */,
+				E620671ADDE592D02BF232FE /* libPods-JDG-Standard_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				69D0791B0AEC06F44DC84127 /* Pods_JDG_Standard_Example.framework */,
-				C37161071330E7937B558C44 /* Pods_JDG_Standard_Tests.framework */,
+				49F9462D9F0CBD05D0D7697B /* libPods-JDG-Standard_Example.a */,
+				344A8F14607E63DB8EBD1E19 /* libPods-JDG-Standard_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
