@@ -31,7 +31,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
 
     s.source_files = [
-        'Standard/Classes/public','JDG-Standard/Classes/**/*.{h,m}'
+        'JDG-Standard/Classes/public/*.{h,m}',
+        'JDG-Standard/Classes/public/models/*.{h,m}'
+        'JDG-Standard/Classes/public/viewControllers/*.{h,m}'
+        'JDG-Standard/Classes/public/views/*.{h,m}'
     ]
 
     # s.resource_bundles = {
