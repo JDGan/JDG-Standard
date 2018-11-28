@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <JDG-Standard/JDGMacroDefines.h>
-#import <JDG-Standard/JDGBaseObject.h>
-#import <JDG-Standard/JDGProtocols.h>
+#import <JDG_Standard/JDGMacroDefines.h>
+#import <JDG_Standard/JDGBaseObject.h>
+#import <JDG_Standard/JDGProtocols.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

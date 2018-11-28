@@ -8,10 +8,10 @@
 #ifndef JDG_Standard_h
 #define JDG_Standard_h
 
-#import <JDG-Standard/JDGMacroDefines.h>
-#import <JDG-Standard/JDGBaseObject.h>
-#import <JDG-Standard/JDGBaseViewController.h>
-#import <JDG-Standard/JDGProtocols.h>
-#import <JDG-Standard/JDGCategorys.h>
+#import <JDG_Standard/JDGMacroDefines.h>
+#import <JDG_Standard/JDGBaseObject.h>
+#import <JDG_Standard/JDGBaseViewController.h>
+#import <JDG_Standard/JDGProtocols.h>
+#import <JDG_Standard/JDGCategorys.h>
 
 #endif /* JDG_Standard_h */

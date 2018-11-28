@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+@import Foundation;
+@import JDG_Standard;
 
-@interface JDGViewController : UIViewController
+@interface JDGViewController : JDGBaseViewController
 
 @end

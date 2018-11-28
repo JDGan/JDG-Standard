@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JDG-Standard'
-    s.version          = '0.1.0'
-    s.summary          = 'A short description of JDG-Standard.'
+    s.version          = '0.1.1'
+    s.summary          = '自用UI框架规范'
 
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     TODO: Add long description of the pod here.
     DESC
 
-    s.homepage         = 'https://github.com/甘邻龙01516778/JDG-Standard'
+    s.homepage         = 'https://github.com/JDGan/JDG-Standard'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { '甘邻龙01516778' => 'ganlinlong@haier.com' }
-    s.source           = { :git => 'https://github.com/甘邻龙01516778/JDG-Standard.git', :tag => s.version.to_s }
+    s.author           = { 'Mr.甘' => 'jessiegan1987@163.com' }
+    s.source           = { :git => 'https://github.com/JDGan/JDG-Standard.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '9.0'
@@ -41,7 +41,10 @@ Pod::Spec.new do |s|
     #   'JDG-Standard' => ['JDG-Standard/Assets/*.png']
     # }
 
-    s.public_header_files = 'JDG-Standard/Classes/public/*.h'
+    s.public_header_files = [
+        'JDG-Standard/Classes/public/*.h',
+        'JDG-Standard/Classes/public/**/*.h'
+    ]
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
 end
