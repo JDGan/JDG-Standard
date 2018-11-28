@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 
     s.source_files = [
         'JDG-Standard/Classes/public/*.{h,m}',
-        'JDG-Standard/Classes/public/models/*.{h,m}'
-        'JDG-Standard/Classes/public/viewControllers/*.{h,m}'
+        'JDG-Standard/Classes/public/models/*.{h,m}',
+        'JDG-Standard/Classes/public/viewControllers/*.{h,m}',
         'JDG-Standard/Classes/public/views/*.{h,m}'
     ]
 
